@@ -25,6 +25,16 @@ const projects: Project[] = [
     confidential: true,
   },
   {
+    type: 'Game',
+    title: 'Free Run — 3D Endless Runner',
+    desc: 'A browser-based 3D endless runner rendered in real-time WebGL. Dodge obstacles and keep running through a neon-lit world, with post-processing bloom effects and smooth camera motion for an immersive arcade experience.',
+    tech: ['React', 'TypeScript', 'Three.js', 'React Three Fiber', 'drei', 'Zustand', 'Vite'],
+    gradient: ['#7c1d6f', '#0e7490'],
+    iconChar: '🏃',
+    github: 'https://github.com/paulson-varghese/free-run',
+    demo: 'https://free-run-two.vercel.app/',
+  },
+  {
     type: 'Hobby Project',
     title: 'Personal Finance Simulator',
     desc: 'An interactive personal finance simulator built for fun — model income, expenses, savings, and investments to visualize long-term financial outcomes. Helps users experiment with budgeting strategies and compound growth scenarios.',
@@ -32,7 +42,7 @@ const projects: Project[] = [
     gradient: ['#064e3b', '#1e3a5f'],
     iconChar: '💰',
     github: 'https://github.com/paulsonvargehese/personal-finance-simulator',
-    demo: 'https://personal-finance-simulator-rosy.vercel.app/',
+    demo: 'https://personal-finance-simulator-six.vercel.app/',
   },
 ];
 
